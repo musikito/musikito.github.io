@@ -1,0 +1,66 @@
+
+body { padding-top: 70px; }
+
+.navbar{
+  background-color: #2C3E50;
+}
+.navbar li a{
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.navbar li a:hover{
+  background-color: #2C3E50;
+}
+a.navbar-brand{
+  text-transform: none;
+  color: white;
+}
+
+.about{
+  margin-top: -22px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  height: 100%;
+  background-color: #CDCDCD;
+  font-size: 20px;
+  color: #2C3E50;
+}
+.picture img{
+  height: 300px;
+  width: 300px;
+  margin: 0px auto;
+  border-radius: 75%;
+}
+.page-title{
+  font-size: 2em;
+  text-decoration: underline;
+  color: #2C3E50;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.projects {
+  background-color: #E4F1FE;
+  color: #333;
+  padding-top: 50px;
+}
+.project-item {
+  padding: 10px;
+  border-radius: 5px;
+}
+.project-item a img {
+  height: 200px;
+}
+.project-item-text {
+  margin: 10px auto;
+  text-align: center;
+}
+.project-item-text h4 {
+  text-transform: uppercase;
+  color: #2C3E50;
+  font-weight: bold;
+}
+.project-item-text h5 {
+  text-transform: uppercase;
+}
